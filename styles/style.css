@@ -1,0 +1,53 @@
+
+/*First set the font and backround colour for the whole html element (the page)*/
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+font-family: 'Montserrat', sans-serif;
+background-color: #37F5E5;
+}
+
+/*Set the parameters for the <body> element*/
+body {
+  width: 650px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+/*Then set the h1 (headline 1) font size and centred alignment*/
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px blue;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+
+/*Next, set the format of paragraphs and list items*/
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+/*Sets the colour of the <a> elements (links) to black*/
+a {
+	color: black;
+}
+
+/*Sets the <a> elements to turn blue on mouse hover*/
+a:hover {
+	color: blue;
+}
+
+/*Sets the <img> elements to centre alignment*/
+img {
+  display: block;
+  margin: 0 auto;
+}
